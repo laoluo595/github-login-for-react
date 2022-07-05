@@ -6,6 +6,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `npm devAll`
+这个会把服务和react一起启动，跑不了的话去下个concurrently
+
 ### `npm start`
 
 Runs the app in the development mode.\
