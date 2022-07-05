@@ -1,7 +1,9 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
+import { createRoot } from 'react-dom/client'
 import App from './app'
-const renderDom = document.getElementById('root')
-ReactDOM.render(
+import 'antd/dist/antd.min.css' // ant ui
+const container = document.getElementById('root');
+const root = createRoot(container);
+root.render(
     <App />
-, renderDom)
+)
